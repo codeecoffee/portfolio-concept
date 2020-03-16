@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #282a36;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fffaff;
+}
+
+header {
+  border-bottom: 1px solid #333;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  margin-top: 50px;
+}
+
+header .links {
+  text-align: center;
+}
+
+header .links a {
+  color: #fffaff;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 16px;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+header .links a:hover {
+  color: #3e92cc;
+  -webkit-transition: color 200ms;
+  transition: color 200ms;
+}
+
+#wrapper {
+  text-align: center;
+  padding: 32px;
+}
+
+#wrapper img {
+  border-radius: 50%;
+  border: 3px solid #3e92cc;
+  margin-bottom: 32px;
+  height: 300px;
+}
+
+#wrapper h1 {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: bold;
+}
+
+#wrapper h2 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  margin-top: 8px;
+  opacity: 0.8;
+}
+
+#wrapper p {
+  max-width: 500px;
+  margin: 32px auto;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer .social {
+  display: inline;
+}
+
+footer .social a {
+  color: #fffaff;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 16px;
+  padding-bottom: 3px;
+  text-decoration: none;
+  border-bottom: 1px solid #3e92cc;
+}
+
+footer .social a:hover {
+  color: #3e92cc;
+  -webkit-transition: color 200ms;
+  transition: color 200ms;
+}
+
+footer .social i {
+  font-size: 18px;
+  color: #fffaff;
+}
+/*# sourceMappingURL=styles.css.map */
